@@ -2,20 +2,15 @@
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
 
-const iconSizes = [ "192", "512"];
-const iconFiles = iconSizes.map(
-  (size) => `/icons/icon-${size}x${size}.png`
-);
-
 const staticFilesToPreCache = [
-  "/",
-  "/app.js",
-  "/routes/api.js",
-  "/manifest.webmanifest",
-  "/index.html", 
-  "/style.css",
-
-].concat(iconFiles);
+    "/",
+    "/db.js",
+    "/manifest.webmanifest",
+    "/styles.css",
+    "/icons/icon-192x192.png",
+    "/icons/icon-512x512.png",
+    "/index.js"
+]
 
 
 // install
