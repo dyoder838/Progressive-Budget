@@ -26,7 +26,7 @@ Then run “npm install” in the CLI
 
 ## Usage 
         
-This app can run locally, or, from the deployed [Heroku link](https://git.heroku.com/desolate-oasis-62895.git)
+This app can run locally, or, from the deployed [Heroku link](https://desolate-oasis-62895.herokuapp.com/)
 
 Check functionality by opening the app in a web browser, inspecting the page, click on the network tab, and switch between online and offline.
             
