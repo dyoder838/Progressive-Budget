@@ -5,7 +5,7 @@
  ## Description
         
 This app is an exercise in Mongo database and PWA - adding offline useability to an app. 
-
+I have created a simple budget tracker using express and mongoose with an MVC framework.
             
 ## Table of Contents
 
@@ -26,7 +26,9 @@ Then run “npm install” in the CLI
 
 ## Usage 
         
-This app can run locally or from my deployed [Heroku link] (https://git.heroku.com desolate-oasis-62895.git)
+This app can run locally, or, from the deployed [Heroku link](https://git.heroku.com/desolate-oasis-62895.git)
+
+Check functionality by opening the app in a web browser, inspecting the page, click on the network tab, and switch between online and offline.
             
 ![screenshot](/public/assets/home-page.PNG?raw=true)
 
